@@ -54,14 +54,46 @@
 		AEABA0362418116200733848 /* PetAssist */ = {
 			isa = PBXGroup;
 			children = (
-				AEABA0372418116200733848 /* AppDelegate.swift */,
-				AEABA0392418116200733848 /* ViewController.swift */,
-				AEABA03B2418116200733848 /* Main.storyboard */,
+				AEABA04C2418169700733848 /* ViewControllers */,
+				AEABA04B2418167000733848 /* Classes */,
+				AEABA04A2418166600733848 /* Storyboards */,
+				AEABA0492418164800733848 /* Media */,
 				AEABA03E2418116600733848 /* Assets.xcassets */,
-				AEABA0402418116600733848 /* LaunchScreen.storyboard */,
 				AEABA0432418116600733848 /* Info.plist */,
 			);
 			path = PetAssist;
+			sourceTree = "<group>";
+		};
+		AEABA0492418164800733848 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		AEABA04A2418166600733848 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AEABA0402418116600733848 /* LaunchScreen.storyboard */,
+				AEABA03B2418116200733848 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AEABA04B2418167000733848 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AEABA0372418116200733848 /* AppDelegate.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AEABA04C2418169700733848 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AEABA0392418116200733848 /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
