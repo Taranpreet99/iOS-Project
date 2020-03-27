@@ -17,6 +17,12 @@
 		AE53F5DB242DF1A3005F9FC3 /* convulsions.png in Resources */ = {isa = PBXBuildFile; fileRef = AE53F5D3242DF1A3005F9FC3 /* convulsions.png */; };
 		AE53F5E1242DFB49005F9FC3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE53F5E0242DFB49005F9FC3 /* WebKit.framework */; };
 		AE53F5E3242DFB73005F9FC3 /* ViewSiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53F5E2242DFB73005F9FC3 /* ViewSiteViewController.swift */; };
+		AEA0D275242E682C001D0CF9 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA0D274242E682C001D0CF9 /* HomePageViewController.swift */; };
+		AEA0D27A242E6DC8001D0CF9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA0D279242E6DC8001D0CF9 /* Data.swift */; };
+		AEA0D27D242E72E4001D0CF9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA0D27B242E72E4001D0CF9 /* libsqlite3.tbd */; };
+		AEA0D27E242E72E4001D0CF9 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA0D27C242E72E4001D0CF9 /* libsqlite3.0.tbd */; };
+		AEA0D280242E7897001D0CF9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA0D27F242E7897001D0CF9 /* RegisterViewController.swift */; };
+		AEA0D289242E863E001D0CF9 /* PetAssistDB.db in Resources */ = {isa = PBXBuildFile; fileRef = AEA0D288242E863E001D0CF9 /* PetAssistDB.db */; };
 		AEABA0382418116200733848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEABA0372418116200733848 /* AppDelegate.swift */; };
 		AEABA03A2418116200733848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEABA0392418116200733848 /* ViewController.swift */; };
 		AEABA03D2418116200733848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEABA03B2418116200733848 /* Main.storyboard */; };
@@ -36,6 +42,12 @@
 		AE53F5D3242DF1A3005F9FC3 /* convulsions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = convulsions.png; sourceTree = "<group>"; };
 		AE53F5E0242DFB49005F9FC3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		AE53F5E2242DFB73005F9FC3 /* ViewSiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSiteViewController.swift; sourceTree = "<group>"; };
+		AEA0D274242E682C001D0CF9 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		AEA0D279242E6DC8001D0CF9 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		AEA0D27B242E72E4001D0CF9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		AEA0D27C242E72E4001D0CF9 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		AEA0D27F242E7897001D0CF9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AEA0D288242E863E001D0CF9 /* PetAssistDB.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = PetAssistDB.db; sourceTree = "<group>"; };
 		AEABA0342418116200733848 /* PetAssist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetAssist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEABA0372418116200733848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEABA0392418116200733848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA0D27D242E72E4001D0CF9 /* libsqlite3.tbd in Frameworks */,
+				AEA0D27E242E72E4001D0CF9 /* libsqlite3.0.tbd in Frameworks */,
 				AE53F5E1242DFB49005F9FC3 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,9 +88,19 @@
 		AE53F5DF242DFB49005F9FC3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AEA0D27C242E72E4001D0CF9 /* libsqlite3.0.tbd */,
+				AEA0D27B242E72E4001D0CF9 /* libsqlite3.tbd */,
 				AE53F5E0242DFB49005F9FC3 /* WebKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEA0D276242E6B58001D0CF9 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				AEA0D288242E863E001D0CF9 /* PetAssistDB.db */,
+			);
+			path = Database;
 			sourceTree = "<group>";
 		};
 		AEABA02B2418116200733848 = {
@@ -99,6 +123,7 @@
 		AEABA0362418116200733848 /* PetAssist */ = {
 			isa = PBXGroup;
 			children = (
+				AEA0D276242E6B58001D0CF9 /* Database */,
 				AE53F5CC242DF18D005F9FC3 /* Images */,
 				AEABA04C2418169700733848 /* ViewControllers */,
 				AEABA04B2418167000733848 /* Classes */,
@@ -132,6 +157,7 @@
 			children = (
 				AE53F5CA242DEA33005F9FC3 /* SiteCell.swift */,
 				AEABA0372418116200733848 /* AppDelegate.swift */,
+				AEA0D279242E6DC8001D0CF9 /* Data.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -142,6 +168,8 @@
 				AEABA0392418116200733848 /* ViewController.swift */,
 				AE53F5C8242DEA0E005F9FC3 /* FirstAidViewController.swift */,
 				AE53F5E2242DFB73005F9FC3 /* ViewSiteViewController.swift */,
+				AEA0D274242E682C001D0CF9 /* HomePageViewController.swift */,
+				AEA0D27F242E7897001D0CF9 /* RegisterViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -204,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA0D289242E863E001D0CF9 /* PetAssistDB.db in Resources */,
 				AE53F5D8242DF1A3005F9FC3 /* bleeding.png in Resources */,
 				AE53F5DA242DF1A3005F9FC3 /* choking.png in Resources */,
 				AEABA0422418116600733848 /* LaunchScreen.storyboard in Resources */,
@@ -224,8 +253,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA0D27A242E6DC8001D0CF9 /* Data.swift in Sources */,
 				AEABA03A2418116200733848 /* ViewController.swift in Sources */,
 				AE53F5C9242DEA0E005F9FC3 /* FirstAidViewController.swift in Sources */,
+				AEA0D280242E7897001D0CF9 /* RegisterViewController.swift in Sources */,
+				AEA0D275242E682C001D0CF9 /* HomePageViewController.swift in Sources */,
 				AE53F5CB242DEA33005F9FC3 /* SiteCell.swift in Sources */,
 				AEABA0382418116200733848 /* AppDelegate.swift in Sources */,
 				AE53F5E3242DFB73005F9FC3 /* ViewSiteViewController.swift in Sources */,
