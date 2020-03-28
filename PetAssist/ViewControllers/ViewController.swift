@@ -25,6 +25,18 @@ class ViewController: UIViewController {
     
     @IBAction func login(sender: UIButton){
         
+        if(uname.text == "" || pass.text == "" ){
+            
+            let alertController = UIAlertController(title: "Missing fields", message: "Please make sure you enter username and password." , preferredStyle: .alert)
+            
+            let cancel = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            
+            
+            alertController.addAction(cancel)
+            present(alertController,animated: true)
+            
+        }else{
+        
        
         for i in 0..<mainDelegate.people.count{
             
@@ -75,6 +87,7 @@ class ViewController: UIViewController {
                 
         }
         
+        }
         
         
     }

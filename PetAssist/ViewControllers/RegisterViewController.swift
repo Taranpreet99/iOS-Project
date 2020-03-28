@@ -19,6 +19,18 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func addPerson(sender : Any){
         
+        if(tfName.text == "" || tfEmail.text == "" || tfUsername.text == "" || tfNewPassword.text == "" || tfConfirmPassword.text == ""){
+            
+            let alertController = UIAlertController(title: "Missing fields", message: "Please make sure you are not missing any fields." , preferredStyle: .alert)
+            
+            let cancel = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            
+            
+            alertController.addAction(cancel)
+            present(alertController,animated: true)
+            
+        }else{
+        
         var password : String!
         if(tfNewPassword.text == tfConfirmPassword.text){
             
@@ -60,9 +72,9 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
             alertController.addAction(cancel)
             present(alertController,animated: true)
             
+         }
+        
         }
-        
-        
         
     }
     
