@@ -10,8 +10,16 @@ import UIKit
 
 class TutorialsViewController: UIViewController {
     
+     let mainDelegate = UIApplication.shared.delegate as! AppDelegate
+    
     @IBAction func UnwindToTutorials(sender: UIStoryboardSegue){
         
+        
+    }
+    
+    @IBAction func FoodTutorials(sender: Any){
+        
+        mainDelegate.selectedURL = "https://www.youtube.com/results?search_query=home+cooked+pet+food"
         
     }
 

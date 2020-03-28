@@ -44,8 +44,8 @@ class TrainingPickerViewController: UIViewController,UIPickerViewDelegate, UIPic
             self.performSegue(withIdentifier: "SegueToTutorialsWeb", sender: nil)
         }
         
-        alertController.addAction(no)
         alertController.addAction(yes)
+        alertController.addAction(no)
         present(alertController, animated: true)
     }
     
