@@ -24,6 +24,7 @@
 		AEA0D280242E7897001D0CF9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA0D27F242E7897001D0CF9 /* RegisterViewController.swift */; };
 		AEA0D289242E863E001D0CF9 /* PetAssistDB.db in Resources */ = {isa = PBXBuildFile; fileRef = AEA0D288242E863E001D0CF9 /* PetAssistDB.db */; };
 		AEA0D28B242FF284001D0CF9 /* TutorialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA0D28A242FF284001D0CF9 /* TutorialsViewController.swift */; };
+		AEA0D28D242FF454001D0CF9 /* TrainingPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA0D28C242FF454001D0CF9 /* TrainingPickerViewController.swift */; };
 		AEABA0382418116200733848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEABA0372418116200733848 /* AppDelegate.swift */; };
 		AEABA03A2418116200733848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEABA0392418116200733848 /* ViewController.swift */; };
 		AEABA03D2418116200733848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEABA03B2418116200733848 /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		AEA0D27F242E7897001D0CF9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		AEA0D288242E863E001D0CF9 /* PetAssistDB.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = PetAssistDB.db; sourceTree = "<group>"; };
 		AEA0D28A242FF284001D0CF9 /* TutorialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialsViewController.swift; sourceTree = "<group>"; };
+		AEA0D28C242FF454001D0CF9 /* TrainingPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingPickerViewController.swift; sourceTree = "<group>"; };
 		AEABA0342418116200733848 /* PetAssist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetAssist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEABA0372418116200733848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEABA0392418116200733848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				AEA0D274242E682C001D0CF9 /* HomePageViewController.swift */,
 				AEA0D27F242E7897001D0CF9 /* RegisterViewController.swift */,
 				AEA0D28A242FF284001D0CF9 /* TutorialsViewController.swift */,
+				AEA0D28C242FF454001D0CF9 /* TrainingPickerViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA0D28D242FF454001D0CF9 /* TrainingPickerViewController.swift in Sources */,
 				AEA0D27A242E6DC8001D0CF9 /* Data.swift in Sources */,
 				AEABA03A2418116200733848 /* ViewController.swift in Sources */,
 				AE53F5C9242DEA0E005F9FC3 /* FirstAidViewController.swift in Sources */,

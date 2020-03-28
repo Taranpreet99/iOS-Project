@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var databaseName : String? = "PetAssistDB.db"
     var databasePath : String?
     var people : [Data] = []
+    var trainingOptions : [String] = ["Behavioral training", "Obedience training", "Agility training", "Vocational training"]
     
     var selectedURL : String = ""
 
