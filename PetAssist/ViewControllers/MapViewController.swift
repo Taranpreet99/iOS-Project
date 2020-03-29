@@ -17,6 +17,44 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     @IBOutlet var mapView: MKMapView!
     var locationManager = CLLocationManager()
     
+    @IBAction func findPetAdoption(_ sender: Any){
+        
+        let request = MKLocalSearch.Request()
+        request.naturalLanguageQuery = "pet adoption"
+        request.region = mapView.region
+        
+        let search = MKLocalSearch(request: request)
+        
+        search.start(completionHandler: {(response, error) in
+            
+            if error != nil{
+                print ("Error")
+            }else if response!.mapItems.count == 0{
+                print("No matches found")
+            }else{
+                
+                self.matchingItems = response?.mapItems
+                
+                if let updatedRegion = response?.boundingRegion{
+                    self.mapView.region = updatedRegion
+                }
+                
+                self.mapView.delegate = self
+                
+                self.mapView.register(MKMarkerAnnotationView.self, forAnnotationViewWithReuseIdentifier: "pin")
+                self.mapView.register(MKMarkerAnnotationView.self, forAnnotationViewWithReuseIdentifier: MKMapViewDefaultClusterAnnotationViewReuseIdentifier)
+                
+                for item in self.matchingItems{
+                    
+                    let annotation = MKPointAnnotation()
+                    annotation.coordinate = item.placemark.coordinate
+                    annotation.title = item.name
+                    self.mapView.addAnnotation(annotation)
+                }
+            }
+        })
+    }
+    
     @IBAction func findPetStore(_ sender: Any) {
         
         let request = MKLocalSearch.Request()

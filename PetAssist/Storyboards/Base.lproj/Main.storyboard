@@ -448,6 +448,11 @@
                                             <action selector="findParks:" destination="pqw-WR-WJE" id="jdx-zW-wnV"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem title="Pet Adoption" id="hXY-Ve-pHe">
+                                        <connections>
+                                            <action selector="findPetAdoption:" destination="pqw-WR-WJE" id="JGn-V9-nd2"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
