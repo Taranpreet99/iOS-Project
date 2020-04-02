@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE0A5A6424353EB100D91828 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0A5A6324353EB100D91828 /* EventsViewController.swift */; };
+		AE0A5A6624354B4600D91828 /* petBg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE0A5A6524354B4600D91828 /* petBg.jpg */; };
+		AE0A5A6C24354DD400D91828 /* petBg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE0A5A6924354DD400D91828 /* petBg1.jpg */; };
+		AE0A5A6E24354F7B00D91828 /* petBg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE0A5A6D24354F7B00D91828 /* petBg2.jpg */; };
+		AE0A5A742435522900D91828 /* bonbg.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0A5A6F2435522900D91828 /* bonbg.png */; };
+		AE0A5A8124355BE600D91828 /* buttons2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0A5A7F24355BE600D91828 /* buttons2.png */; };
 		AE53F5C9242DEA0E005F9FC3 /* FirstAidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53F5C8242DEA0E005F9FC3 /* FirstAidViewController.swift */; };
 		AE53F5CB242DEA33005F9FC3 /* SiteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53F5CA242DEA33005F9FC3 /* SiteCell.swift */; };
 		AE53F5D5242DF1A3005F9FC3 /* burns.png in Resources */ = {isa = PBXBuildFile; fileRef = AE53F5CD242DF1A3005F9FC3 /* burns.png */; };
@@ -21,14 +27,23 @@
 		AE53F5EA24308C4D005F9FC3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE53F5E924308C4D005F9FC3 /* CoreLocation.framework */; };
 		AE53F5EC24308C76005F9FC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE53F5EB24308C76005F9FC3 /* CoreGraphics.framework */; };
 		AE53F5EE24308EF1005F9FC3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53F5ED24308EF1005F9FC3 /* MapViewController.swift */; };
-		AE7E9DF32430078A00E68054 /* Whining.wav in Resources */ = {isa = PBXBuildFile; fileRef = AE7E9DF22430078A00E68054 /* Whining.wav */; };
 		AE7E9DF9243007F600E68054 /* growling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE7E9DF4243007F600E68054 /* growling.mp3 */; };
-		AE7E9DFA243007F600E68054 /* woof.wav in Resources */ = {isa = PBXBuildFile; fileRef = AE7E9DF5243007F600E68054 /* woof.wav */; };
 		AE7E9DFB243007F600E68054 /* whimpering.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE7E9DF6243007F600E68054 /* whimpering.mp3 */; };
 		AE7E9DFC243007F600E68054 /* barking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE7E9DF7243007F600E68054 /* barking.mp3 */; };
 		AE7E9DFD243007F600E68054 /* crying.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE7E9DF8243007F600E68054 /* crying.mp3 */; };
 		AE7E9DFF2430081700E68054 /* FunSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7E9DFE2430081700E68054 /* FunSectionViewController.swift */; };
 		AE7E9E0124300A4600E68054 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7E9E0024300A4600E68054 /* AVFoundation.framework */; };
+		AE8E76632435644500AC80DF /* petBg3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8E76622435644400AC80DF /* petBg3.jpg */; };
+		AE8E7667243566B800AC80DF /* tutorialBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8E7666243566B800AC80DF /* tutorialBG.jpg */; };
+		AE8E7669243566EB00AC80DF /* tutorialsbg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8E7668243566EB00AC80DF /* tutorialsbg2.jpg */; };
+		AE8E7670243578FB00AC80DF /* petbg8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8E766A243578FA00AC80DF /* petbg8.jpg */; };
+		AE8E7671243578FB00AC80DF /* petbg9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8E766B243578FA00AC80DF /* petbg9.jpg */; };
+		AE8E7672243578FB00AC80DF /* petbg5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE8E766C243578FA00AC80DF /* petbg5.jpeg */; };
+		AE8E7673243578FB00AC80DF /* petbg4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8E766D243578FA00AC80DF /* petbg4.jpg */; };
+		AE8E7674243578FB00AC80DF /* petbg6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8E766E243578FA00AC80DF /* petbg6.jpg */; };
+		AE8E7675243578FB00AC80DF /* petbg7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8E766F243578FA00AC80DF /* petbg7.jpg */; };
+		AE9A4F8C24316EDF00C41B4C /* Whining.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE9A4F8A24316EDF00C41B4C /* Whining.mp3 */; };
+		AE9A4F8D24316EDF00C41B4C /* woof.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE9A4F8B24316EDF00C41B4C /* woof.mp3 */; };
 		AEA0D275242E682C001D0CF9 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA0D274242E682C001D0CF9 /* HomePageViewController.swift */; };
 		AEA0D27A242E6DC8001D0CF9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA0D279242E6DC8001D0CF9 /* Data.swift */; };
 		AEA0D27D242E72E4001D0CF9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA0D27B242E72E4001D0CF9 /* libsqlite3.tbd */; };
@@ -45,6 +60,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE0A5A6324353EB100D91828 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		AE0A5A6524354B4600D91828 /* petBg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petBg.jpg; sourceTree = "<group>"; };
+		AE0A5A6924354DD400D91828 /* petBg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petBg1.jpg; sourceTree = "<group>"; };
+		AE0A5A6D24354F7B00D91828 /* petBg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petBg2.jpg; sourceTree = "<group>"; };
+		AE0A5A6F2435522900D91828 /* bonbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bonbg.png; sourceTree = "<group>"; };
+		AE0A5A7F24355BE600D91828 /* buttons2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttons2.png; sourceTree = "<group>"; };
 		AE53F5C8242DEA0E005F9FC3 /* FirstAidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAidViewController.swift; sourceTree = "<group>"; };
 		AE53F5CA242DEA33005F9FC3 /* SiteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteCell.swift; sourceTree = "<group>"; };
 		AE53F5CD242DF1A3005F9FC3 /* burns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burns.png; sourceTree = "<group>"; };
@@ -55,19 +76,27 @@
 		AE53F5D3242DF1A3005F9FC3 /* convulsions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = convulsions.png; sourceTree = "<group>"; };
 		AE53F5E0242DFB49005F9FC3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		AE53F5E2242DFB73005F9FC3 /* ViewSiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSiteViewController.swift; sourceTree = "<group>"; };
-		AE53F5E624308845005F9FC3 /* petBg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = petBg.jpg; path = "../../../../../Downloads/PetAssist Project/Images/petBg.jpg"; sourceTree = "<group>"; };
 		AE53F5E724308C3A005F9FC3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AE53F5E924308C4D005F9FC3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		AE53F5EB24308C76005F9FC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		AE53F5ED24308EF1005F9FC3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		AE7E9DF22430078A00E68054 /* Whining.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Whining.wav; sourceTree = "<group>"; };
 		AE7E9DF4243007F600E68054 /* growling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = growling.mp3; sourceTree = "<group>"; };
-		AE7E9DF5243007F600E68054 /* woof.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = woof.wav; sourceTree = "<group>"; };
 		AE7E9DF6243007F600E68054 /* whimpering.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whimpering.mp3; sourceTree = "<group>"; };
 		AE7E9DF7243007F600E68054 /* barking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = barking.mp3; sourceTree = "<group>"; };
 		AE7E9DF8243007F600E68054 /* crying.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crying.mp3; sourceTree = "<group>"; };
 		AE7E9DFE2430081700E68054 /* FunSectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunSectionViewController.swift; sourceTree = "<group>"; };
 		AE7E9E0024300A4600E68054 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AE8E76622435644400AC80DF /* petBg3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petBg3.jpg; sourceTree = "<group>"; };
+		AE8E7666243566B800AC80DF /* tutorialBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tutorialBG.jpg; path = "../../../../../Downloads/PetAssist App backgrounds/tutorialBG.jpg"; sourceTree = "<group>"; };
+		AE8E7668243566EB00AC80DF /* tutorialsbg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tutorialsbg2.jpg; sourceTree = "<group>"; };
+		AE8E766A243578FA00AC80DF /* petbg8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petbg8.jpg; sourceTree = "<group>"; };
+		AE8E766B243578FA00AC80DF /* petbg9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petbg9.jpg; sourceTree = "<group>"; };
+		AE8E766C243578FA00AC80DF /* petbg5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petbg5.jpeg; sourceTree = "<group>"; };
+		AE8E766D243578FA00AC80DF /* petbg4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petbg4.jpg; sourceTree = "<group>"; };
+		AE8E766E243578FA00AC80DF /* petbg6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petbg6.jpg; sourceTree = "<group>"; };
+		AE8E766F243578FA00AC80DF /* petbg7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petbg7.jpg; sourceTree = "<group>"; };
+		AE9A4F8A24316EDF00C41B4C /* Whining.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Whining.mp3; sourceTree = "<group>"; };
+		AE9A4F8B24316EDF00C41B4C /* woof.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = woof.mp3; sourceTree = "<group>"; };
 		AEA0D274242E682C001D0CF9 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		AEA0D279242E6DC8001D0CF9 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		AEA0D27B242E72E4001D0CF9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -106,12 +135,25 @@
 		AE53F5CC242DF18D005F9FC3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				AE8E766D243578FA00AC80DF /* petbg4.jpg */,
+				AE8E766C243578FA00AC80DF /* petbg5.jpeg */,
+				AE8E766E243578FA00AC80DF /* petbg6.jpg */,
+				AE8E766F243578FA00AC80DF /* petbg7.jpg */,
+				AE8E766A243578FA00AC80DF /* petbg8.jpg */,
+				AE8E766B243578FA00AC80DF /* petbg9.jpg */,
+				AE8E7668243566EB00AC80DF /* tutorialsbg2.jpg */,
+				AE8E7666243566B800AC80DF /* tutorialBG.jpg */,
+				AE8E76622435644400AC80DF /* petBg3.jpg */,
+				AE0A5A7F24355BE600D91828 /* buttons2.png */,
+				AE0A5A6F2435522900D91828 /* bonbg.png */,
+				AE0A5A6D24354F7B00D91828 /* petBg2.jpg */,
+				AE0A5A6924354DD400D91828 /* petBg1.jpg */,
+				AE0A5A6524354B4600D91828 /* petBg.jpg */,
 				AE53F5D1242DF1A3005F9FC3 /* eyeinjury.png */,
 				AE53F5CD242DF1A3005F9FC3 /* burns.png */,
 				AE53F5D2242DF1A3005F9FC3 /* choking.png */,
 				AE53F5D0242DF1A3005F9FC3 /* bleeding.png */,
 				AE53F5CE242DF1A3005F9FC3 /* resuscitation.png */,
-				AE53F5E624308845005F9FC3 /* petBg.jpg */,
 				AE53F5D3242DF1A3005F9FC3 /* convulsions.png */,
 			);
 			path = Images;
@@ -174,12 +216,12 @@
 		AEABA0492418164800733848 /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				AE9A4F8A24316EDF00C41B4C /* Whining.mp3 */,
+				AE9A4F8B24316EDF00C41B4C /* woof.mp3 */,
 				AE7E9DF7243007F600E68054 /* barking.mp3 */,
 				AE7E9DF8243007F600E68054 /* crying.mp3 */,
 				AE7E9DF4243007F600E68054 /* growling.mp3 */,
 				AE7E9DF6243007F600E68054 /* whimpering.mp3 */,
-				AE7E9DF5243007F600E68054 /* woof.wav */,
-				AE7E9DF22430078A00E68054 /* Whining.wav */,
 			);
 			path = Media;
 			sourceTree = "<group>";
@@ -215,6 +257,7 @@
 				AEA0D28C242FF454001D0CF9 /* TrainingPickerViewController.swift */,
 				AE7E9DFE2430081700E68054 /* FunSectionViewController.swift */,
 				AE53F5ED24308EF1005F9FC3 /* MapViewController.swift */,
+				AE0A5A6324353EB100D91828 /* EventsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -277,22 +320,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE8E7674243578FB00AC80DF /* petbg6.jpg in Resources */,
+				AE9A4F8C24316EDF00C41B4C /* Whining.mp3 in Resources */,
+				AE9A4F8D24316EDF00C41B4C /* woof.mp3 in Resources */,
+				AE8E76632435644500AC80DF /* petBg3.jpg in Resources */,
+				AE8E7675243578FB00AC80DF /* petbg7.jpg in Resources */,
 				AE7E9DFB243007F600E68054 /* whimpering.mp3 in Resources */,
+				AE8E7670243578FB00AC80DF /* petbg8.jpg in Resources */,
+				AE0A5A6C24354DD400D91828 /* petBg1.jpg in Resources */,
+				AE8E7671243578FB00AC80DF /* petbg9.jpg in Resources */,
 				AE7E9DF9243007F600E68054 /* growling.mp3 in Resources */,
 				AEA0D289242E863E001D0CF9 /* PetAssistDB.db in Resources */,
 				AE53F5D8242DF1A3005F9FC3 /* bleeding.png in Resources */,
+				AE0A5A8124355BE600D91828 /* buttons2.png in Resources */,
+				AE8E7669243566EB00AC80DF /* tutorialsbg2.jpg in Resources */,
+				AE8E7667243566B800AC80DF /* tutorialBG.jpg in Resources */,
 				AE53F5DA242DF1A3005F9FC3 /* choking.png in Resources */,
-				AE7E9DF32430078A00E68054 /* Whining.wav in Resources */,
 				AEABA0422418116600733848 /* LaunchScreen.storyboard in Resources */,
 				AE7E9DFC243007F600E68054 /* barking.mp3 in Resources */,
+				AE0A5A6E24354F7B00D91828 /* petBg2.jpg in Resources */,
 				AE53F5D9242DF1A3005F9FC3 /* eyeinjury.png in Resources */,
+				AE8E7672243578FB00AC80DF /* petbg5.jpeg in Resources */,
+				AE0A5A742435522900D91828 /* bonbg.png in Resources */,
 				AE53F5D5242DF1A3005F9FC3 /* burns.png in Resources */,
+				AE0A5A6624354B4600D91828 /* petBg.jpg in Resources */,
 				AE53F5D6242DF1A3005F9FC3 /* resuscitation.png in Resources */,
-				AE7E9DFA243007F600E68054 /* woof.wav in Resources */,
 				AE7E9DFD243007F600E68054 /* crying.mp3 in Resources */,
 				AEABA03F2418116600733848 /* Assets.xcassets in Resources */,
 				AE53F5DB242DF1A3005F9FC3 /* convulsions.png in Resources */,
 				AEABA03D2418116200733848 /* Main.storyboard in Resources */,
+				AE8E7673243578FB00AC80DF /* petbg4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +372,7 @@
 				AEA0D28B242FF284001D0CF9 /* TutorialsViewController.swift in Sources */,
 				AEABA0382418116200733848 /* AppDelegate.swift in Sources */,
 				AE53F5E3242DFB73005F9FC3 /* ViewSiteViewController.swift in Sources */,
+				AE0A5A6424353EB100D91828 /* EventsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

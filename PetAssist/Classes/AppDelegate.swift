@@ -8,6 +8,8 @@
 
 import UIKit
 import SQLite3
+import UserNotifications
+import EventKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,11 +20,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var people : [Data] = []
     var trainingOptions : [String] = ["Behavioral training", "Obedience training", "Agility training", "Vocational training"]
     
+    var eventStore: EKEventStore?
+    
     var selectedURL : String = ""
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let notiCenter = UNUserNotificationCenter.current()
+        notiCenter.requestAuthorization(options: [.alert, .badge, .sound]){ (didAllow, e) in }
         
         let documentPaths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
         
@@ -68,8 +75,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     data.initWithData(theRow: id, theName: name, theEmail: email, theUsername: username, thePassword: password)
                     people.append(data)
                     
-                    print("Query result")
-                    print("\(id) | \(name) | \(email) | \(username)")
+                  //  print("Query result")
+                   // print("\(id) | \(name) | \(email) | \(username)")
                     
                     
                     
