@@ -17,6 +17,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     @IBOutlet var mapView: MKMapView!
     var locationManager = CLLocationManager()
     
+    // Find pet adoptions nearby user's current location
     @IBAction func findPetAdoption(_ sender: Any){
         
         let request = MKLocalSearch.Request()
@@ -55,6 +56,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         })
     }
     
+    // Find pet stores nearby user's current location
     @IBAction func findPetStore(_ sender: Any) {
         
         let request = MKLocalSearch.Request()
@@ -93,6 +95,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         })
     }
     
+    // find vet cares nearby user's current location
     @IBAction func findVetCare(_ sender: Any) {
         
         let request = MKLocalSearch.Request()
@@ -131,7 +134,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         })
     }
     
-    
+    // Find dog parks nearby user's current location
     @IBAction func findParks(_ sender: Any) {
         
         let request = MKLocalSearch.Request()
@@ -170,11 +173,13 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         })
     }
     
+    // Request authorization, show and update user's current location
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        mapView.showsUserLocation = true
         // Do any additional setup after loading the view.
+        
+        mapView.showsUserLocation = true
         
         if CLLocationManager.locationServicesEnabled() {
             
@@ -187,13 +192,13 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
             locationManager.delegate = self
             locationManager.startUpdatingLocation()
         }else{
-            print("Please")
+            print("Please turn on location services.")
         }
     }
     
+    // How much zoom in and out in map
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
-//        let region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: locations[0].coordinate.latitude, longitude: locations[0].coordinate.longitude), span: MKCoordinateSpan())
         
         if let location = locations.last{
             let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
@@ -202,6 +207,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         }
     }
     
+    // Location request error handler
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print("Unable to access to your current location")
     }

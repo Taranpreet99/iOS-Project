@@ -16,6 +16,7 @@ class FirstAidViewController: UIViewController, UITableViewDelegate, UITableView
     
     var imageData: [String] = ["bleeding.png", "burns.png", "choking.png", "convulsions.png", "eyeinjury.png", "resuscitation.png"]
     
+    // Unwind segue to first aid page
     @IBAction func unwindToFirstAidVC(sender : UIStoryboardSegue){
         
     }
@@ -27,24 +28,25 @@ class FirstAidViewController: UIViewController, UITableViewDelegate, UITableView
         // Do any additional setup after loading the view.
     }
     
+    // The number of rows of table
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return listData.count
     }
     
+    // The hight of each row
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
     }
     
+    // Row content
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let tableCell : SiteCell = tableView.dequeueReusableCell(withIdentifier: "cell") as? SiteCell ?? SiteCell(style:UITableViewCell.CellStyle.default, reuseIdentifier: "cell")
         
         let rowNum = indexPath.row
         let injury = listData[rowNum]
-//        let site = siteData[rowNum]
         let imgName = UIImage(named:imageData[rowNum])
         
         tableCell.primaryLabel.text =  injury
-//        tableCell.secondaryLabel.text = site
         tableCell.myImageView.image = imgName
         
         tableCell.accessoryType = .disclosureIndicator
@@ -52,6 +54,7 @@ class FirstAidViewController: UIViewController, UITableViewDelegate, UITableView
         return tableCell
     }
     
+    // When the row is selected
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         let mainDelegate = UIApplication.shared.delegate as! AppDelegate
