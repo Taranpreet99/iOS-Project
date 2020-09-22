@@ -3,8 +3,8 @@
 //  PetAssist
 //
 //  Created by Xcode User on 2020-03-29.
-//  Copyright © 2020 Taranpreet Singh Yu Zhang. All rights reserved.
-//
+//  Copyright © 2020 PetAssist. All rights reserved.
+
 
 import UIKit
 import MapKit

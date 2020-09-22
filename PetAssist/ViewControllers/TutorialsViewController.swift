@@ -3,7 +3,7 @@
 //  PetAssist
 //
 //  Created by Taranpreet Singh on 2020-03-28.
-//  Copyright © 2020 Taranpreet Singh Yu Zhang. All rights reserved.
+//  Copyright © 2020 Taranpreet Singh . All rights reserved.
 //
 
 import UIKit
@@ -12,13 +12,16 @@ class TutorialsViewController: UIViewController {
     
      let mainDelegate = UIApplication.shared.delegate as! AppDelegate
     
+    //unwind segue to this view controller when back button is pressed
     @IBAction func UnwindToTutorials(sender: UIStoryboardSegue){
         
         
     }
     
+    //Code to be run when Food tutorials button is pressed
     @IBAction func FoodTutorials(sender: Any){
         
+        //URL provided to be run web kit view
         mainDelegate.selectedURL = "https://www.youtube.com/results?search_query=home+cooked+pet+food"
         
     }
@@ -30,14 +33,6 @@ class TutorialsViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
 
 }

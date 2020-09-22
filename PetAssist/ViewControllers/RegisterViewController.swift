@@ -3,22 +3,28 @@
 //  PetAssist
 //
 //  Created by Taranpreet Singh on 2020-03-27.
-//  Copyright © 2020 Taranpreet Singh Yu Zhang. All rights reserved.
-//
+//  Copyright © 2020 Taranpreet Singh . All rights reserved.
+//  Developed by Taranpreet Singh
 
 import UIKit
 
 class RegisterViewController: UIViewController, UITextFieldDelegate {
     
-    
+    //Name textfield
     @IBOutlet var tfName : UITextField!
+    //Email textfield
     @IBOutlet var tfEmail : UITextField!
+    //Username textfield
     @IBOutlet var tfUsername : UITextField!
+    //New password textfield
     @IBOutlet var tfNewPassword : UITextField!
+    //Confirm password textfield
     @IBOutlet var tfConfirmPassword : UITextField!
     
+    //Function to be performed when add button is clicked
     @IBAction func addPerson(sender : Any){
         
+        //Empty fields validation
         if(tfName.text == "" || tfEmail.text == "" || tfUsername.text == "" || tfNewPassword.text == "" || tfConfirmPassword.text == ""){
             
             let alertController = UIAlertController(title: "Missing fields", message: "Please make sure you are not missing any fields." , preferredStyle: .alert)
@@ -78,7 +84,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
         
     }
     
-    
+    //Hide keyboard when touched outside text field
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         
         return textField.resignFirstResponder()
@@ -92,15 +98,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+   
 
 }
 

@@ -3,17 +3,19 @@
 //  PetAssist
 //
 //  Created by Xcode User on 2020-03-27.
-//  Copyright © 2020 Taranpreet Singh Yu Zhang. All rights reserved.
-//
+//  Copyright © 2020 . All rights reserved.
 
 import UIKit
 
 class FirstAidViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    //array to store -List of injuries
     var listData = ["Bleeding Skin", "Burns", "Choking", "Convulsions", "Eye Injury", "Resuscitation" ]
     
+    //Array to store source of information URL for each first aid
     var siteData: [String] = ["https://vcahospitals.com/know-your-pet/testing-for-signs-of-bleeding", "https://animals.howstuffworks.com/pets/how-to-give-first-aid-to-your-dog6.htm", "https://www.youtube.com/watch?v=eo_1OHNc_w4", "https://www.youtube.com/watch?v=ZWQXtlBHU6k", "https://www.thesprucepets.com/eye-injuries-in-dogs-4126601", "https://www.youtube.com/watch?v=cMYSVin-Itw"]
     
+    //Array to store image name of each injury
     var imageData: [String] = ["bleeding.png", "burns.png", "choking.png", "convulsions.png", "eyeinjury.png", "resuscitation.png"]
     
     // Unwind segue to first aid page
@@ -64,14 +66,5 @@ class FirstAidViewController: UIViewController, UITableViewDelegate, UITableView
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

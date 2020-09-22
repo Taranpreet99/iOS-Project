@@ -3,7 +3,7 @@
 //  PetAssist
 //
 //  Created by Xcode User on 2020-03-27.
-//  Copyright © 2020 Taranpreet Singh Yu Zhang. All rights reserved.
+//  Copyright © 2020 Taranpreet Singh . All rights reserved.
 //
 
 import UIKit
@@ -11,7 +11,10 @@ import WebKit
 
 class ViewSiteViewController: UIViewController, WKNavigationDelegate {
     
+    //Connected to webview
     @IBOutlet var webView : WKWebView!
+    
+    //Activity indicator view in web view
     @IBOutlet var activity : UIActivityIndicatorView!
 
     override func viewDidLoad() {
@@ -27,25 +30,18 @@ class ViewSiteViewController: UIViewController, WKNavigationDelegate {
         webView.navigationDelegate = self
     }
     
+    //Web page loading has started
     func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
         
         activity.startAnimating()
         activity.isHidden = false
     }
     
+    //Web page loading has finished
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         activity.stopAnimating()
         activity.isHidden = true
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
 }

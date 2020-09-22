@@ -1,30 +1,35 @@
 //
 //  ViewController.swift
 //  PetAssist
-//  yu zhang *2
 //  Created by Taranpreet Singh on 2020-03-10.
-//  Copyright © 2020 Taranpreet Singh Yu Zhang. All rights reserved.
-//
+//  Copyright © 2020 Taranpreet Singh . All rights reserved.
+//  Developed by Taranpreet Singh
 
 import UIKit
 
 
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     
+    //Username textfield
     @IBOutlet var uname : UITextField!
+    //Password field
     @IBOutlet var pass : UITextField!
+    //Temporary variable for if else algorithm
     var count = 0
     
-    
+    //Variable to use AppDelegate in this class
     let mainDelegate = UIApplication.shared.delegate as! AppDelegate
     
+    //Unwind the segue to this page
     @IBAction func unwindToHome(sender : UIStoryboardSegue){
         
     }
     
+    //Code to be run when login button is clicked
     @IBAction func login(sender: UIButton){
         
+        //Making sure fields are not left empty
         if(uname.text == "" || pass.text == "" ){
             
             let alertController = UIAlertController(title: "Missing fields", message: "Please make sure you enter username and password." , preferredStyle: .alert)
@@ -37,18 +42,20 @@ class ViewController: UIViewController {
             
         }else{
         
-       
+       //For loop to compare entered value with every value in the database
         for i in 0..<mainDelegate.people.count{
             
             if(mainDelegate.people[i].username == uname.text){
                 
+                //Username is there in the database - Time to test password
                 if(mainDelegate.people[i].password == pass.text){
                     
                     count = 2
                     break
-                   // self.performSegue(withIdentifier: "SegueToHomePage", sender: nil)
+                   
                 }else{
-                    
+                   
+                    //Incorrect password
                     let alertController = UIAlertController(title: "Incorrect Password!", message: "Please enter correct password" , preferredStyle: .alert)
                     
                     let cancel = UIAlertAction(title: "OK", style: .cancel, handler: nil)
@@ -66,10 +73,11 @@ class ViewController: UIViewController {
             
         }
         
+            //If both username and password are correct - segue
         if(count == 2){
             self.performSegue(withIdentifier: "SegueToHomePage", sender: nil)
         }
-        else{
+        else{//else username is incorrect
                 
                 let alertController = UIAlertController(title: "Incorrect Username", message: "Username that you have entered does not exist. Either register or try again", preferredStyle: .alert)
                 
@@ -90,6 +98,12 @@ class ViewController: UIViewController {
         }
         
         
+    }
+    
+    //Hide keyboard when touched outside text field
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
+        return textField.resignFirstResponder()
     }
 
     override func viewDidLoad() {

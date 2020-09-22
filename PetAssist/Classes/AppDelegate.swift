@@ -44,7 +44,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true
     }
-    
+
+    //Function to read data from the database
     func readDataFromDatabase(){
         
         people.removeAll()
@@ -100,6 +101,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     
+    //Function to insert data into the database
     func insertIntoDatabase(person : Data) -> Bool{
         var db : OpaquePointer? = nil
         var returnCode : Bool = true
@@ -149,6 +151,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
     }
     
+    //Check and create database if it does not exists already
     func checkAndCreateDatabase(){
         
         var success = false
