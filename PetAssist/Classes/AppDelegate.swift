@@ -48,6 +48,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     //Function to read data from the database
     func readDataFromDatabase(){
         
+        print("" + self.databasePath!)
+        
         people.removeAll()
         
         var db : OpaquePointer? = nil
@@ -108,7 +110,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         if sqlite3_open(self.databasePath, &db) == SQLITE_OK{
             var insertStatement : OpaquePointer? = nil
-            var insertString : String = "insert into entries values(NULL, ? ,? ,?,?)"
+            var insertString : String = "insert into entries values(NULL,?,? ,?,?)"
             
             if sqlite3_prepare(db, insertString, -1, &insertStatement, nil) == SQLITE_OK {
                 
