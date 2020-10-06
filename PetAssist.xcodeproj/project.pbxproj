@@ -13,6 +13,9 @@
 		AE0A5A6E24354F7B00D91828 /* petBg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE0A5A6D24354F7B00D91828 /* petBg2.jpg */; };
 		AE0A5A742435522900D91828 /* bonbg.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0A5A6F2435522900D91828 /* bonbg.png */; };
 		AE0A5A8124355BE600D91828 /* buttons2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0A5A7F24355BE600D91828 /* buttons2.png */; };
+		AE39037D252CB3BE00642FAC /* signin.png in Resources */ = {isa = PBXBuildFile; fileRef = AE39037C252CB3BE00642FAC /* signin.png */; };
+		AE39037F252CB3C400642FAC /* signup.png in Resources */ = {isa = PBXBuildFile; fileRef = AE39037E252CB3C300642FAC /* signup.png */; };
+		AE390386252CC3EB00642FAC /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE390385252CC3EB00642FAC /* InformationViewController.swift */; };
 		AE53F5C9242DEA0E005F9FC3 /* FirstAidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53F5C8242DEA0E005F9FC3 /* FirstAidViewController.swift */; };
 		AE53F5CB242DEA33005F9FC3 /* SiteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53F5CA242DEA33005F9FC3 /* SiteCell.swift */; };
 		AE53F5D5242DF1A3005F9FC3 /* burns.png in Resources */ = {isa = PBXBuildFile; fileRef = AE53F5CD242DF1A3005F9FC3 /* burns.png */; };
@@ -31,7 +34,6 @@
 		AE7E9DFB243007F600E68054 /* whimpering.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE7E9DF6243007F600E68054 /* whimpering.mp3 */; };
 		AE7E9DFC243007F600E68054 /* barking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE7E9DF7243007F600E68054 /* barking.mp3 */; };
 		AE7E9DFD243007F600E68054 /* crying.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE7E9DF8243007F600E68054 /* crying.mp3 */; };
-		AE7E9DFF2430081700E68054 /* FunSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7E9DFE2430081700E68054 /* FunSectionViewController.swift */; };
 		AE7E9E0124300A4600E68054 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7E9E0024300A4600E68054 /* AVFoundation.framework */; };
 		AE8E76632435644500AC80DF /* petBg3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8E76622435644400AC80DF /* petBg3.jpg */; };
 		AE8E7670243578FB00AC80DF /* petbg8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8E766A243578FA00AC80DF /* petbg8.jpg */; };
@@ -69,6 +71,9 @@
 		AE0A5A6D24354F7B00D91828 /* petBg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petBg2.jpg; sourceTree = "<group>"; };
 		AE0A5A6F2435522900D91828 /* bonbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bonbg.png; sourceTree = "<group>"; };
 		AE0A5A7F24355BE600D91828 /* buttons2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttons2.png; sourceTree = "<group>"; };
+		AE39037C252CB3BE00642FAC /* signin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signin.png; sourceTree = "<group>"; };
+		AE39037E252CB3C300642FAC /* signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signup.png; sourceTree = "<group>"; };
+		AE390385252CC3EB00642FAC /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		AE53F5C8242DEA0E005F9FC3 /* FirstAidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAidViewController.swift; sourceTree = "<group>"; };
 		AE53F5CA242DEA33005F9FC3 /* SiteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteCell.swift; sourceTree = "<group>"; };
 		AE53F5CD242DF1A3005F9FC3 /* burns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burns.png; sourceTree = "<group>"; };
@@ -87,7 +92,6 @@
 		AE7E9DF6243007F600E68054 /* whimpering.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whimpering.mp3; sourceTree = "<group>"; };
 		AE7E9DF7243007F600E68054 /* barking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = barking.mp3; sourceTree = "<group>"; };
 		AE7E9DF8243007F600E68054 /* crying.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crying.mp3; sourceTree = "<group>"; };
-		AE7E9DFE2430081700E68054 /* FunSectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunSectionViewController.swift; sourceTree = "<group>"; };
 		AE7E9E0024300A4600E68054 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		AE8E76622435644400AC80DF /* petBg3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petBg3.jpg; sourceTree = "<group>"; };
 		AE8E766A243578FA00AC80DF /* petbg8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petbg8.jpg; sourceTree = "<group>"; };
@@ -141,6 +145,8 @@
 		AE53F5CC242DF18D005F9FC3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				AE39037E252CB3C300642FAC /* signup.png */,
+				AE39037C252CB3BE00642FAC /* signin.png */,
 				AEC41D60252B48E200C00B2C /* menu.png */,
 				AEC41D5E252B470700C00B2C /* training.png */,
 				AEC41D5C252B465000C00B2C /* info.png */,
@@ -264,9 +270,9 @@
 				AEA0D27F242E7897001D0CF9 /* RegisterViewController.swift */,
 				AEA0D28A242FF284001D0CF9 /* TutorialsViewController.swift */,
 				AEA0D28C242FF454001D0CF9 /* TrainingPickerViewController.swift */,
-				AE7E9DFE2430081700E68054 /* FunSectionViewController.swift */,
 				AE53F5ED24308EF1005F9FC3 /* MapViewController.swift */,
 				AE0A5A6324353EB100D91828 /* EventsViewController.swift */,
+				AE390385252CC3EB00642FAC /* InformationViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -303,6 +309,7 @@
 				TargetAttributes = {
 					AEABA0332418116200733848 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 				};
 			};
@@ -333,11 +340,13 @@
 				AE9A4F8C24316EDF00C41B4C /* Whining.mp3 in Resources */,
 				AE9A4F8D24316EDF00C41B4C /* woof.mp3 in Resources */,
 				AE8E76632435644500AC80DF /* petBg3.jpg in Resources */,
+				AE39037F252CB3C400642FAC /* signup.png in Resources */,
 				AE8E7675243578FB00AC80DF /* petbg7.jpg in Resources */,
 				AE7E9DFB243007F600E68054 /* whimpering.mp3 in Resources */,
 				AE8E7670243578FB00AC80DF /* petbg8.jpg in Resources */,
 				AE0A5A6C24354DD400D91828 /* petBg1.jpg in Resources */,
 				AEC41D61252B48E300C00B2C /* menu.png in Resources */,
+				AE39037D252CB3BE00642FAC /* signin.png in Resources */,
 				AE8E7671243578FB00AC80DF /* petbg9.jpg in Resources */,
 				AE7E9DF9243007F600E68054 /* growling.mp3 in Resources */,
 				AEA0D289242E863E001D0CF9 /* PetAssistDB.db in Resources */,
@@ -372,10 +381,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE390386252CC3EB00642FAC /* InformationViewController.swift in Sources */,
 				AEA0D28D242FF454001D0CF9 /* TrainingPickerViewController.swift in Sources */,
 				AEA0D27A242E6DC8001D0CF9 /* Data.swift in Sources */,
 				AEABA03A2418116200733848 /* ViewController.swift in Sources */,
-				AE7E9DFF2430081700E68054 /* FunSectionViewController.swift in Sources */,
 				AE53F5C9242DEA0E005F9FC3 /* FirstAidViewController.swift in Sources */,
 				AEA0D280242E7897001D0CF9 /* RegisterViewController.swift in Sources */,
 				AEA0D275242E682C001D0CF9 /* HomePageViewController.swift in Sources */,
@@ -530,6 +539,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PetAssist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -538,6 +548,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Taran-Yu.PetAssist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PetAssist/ViewControllers/PetAssist-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -547,6 +559,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PetAssist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -555,6 +568,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Taran-Yu.PetAssist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PetAssist/ViewControllers/PetAssist-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

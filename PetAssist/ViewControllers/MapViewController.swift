@@ -17,6 +17,8 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     @IBOutlet var mapView: MKMapView!
     var locationManager = CLLocationManager()
     
+    
+    
     // Find pet adoptions nearby user's current location
     @IBAction func findPetAdoption(_ sender: Any){
         
