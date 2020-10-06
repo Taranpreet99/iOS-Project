@@ -8,8 +8,12 @@
 
 import UIKit
 
-class InformationViewController: UIViewController {
-
+class InformationViewController: UITableViewController{
+    
+    @IBAction func unwindToInformation(sender : UIStoryboardSegue){
+        
+    }
+  
     override func viewDidLoad() {
         super.viewDidLoad()
 
