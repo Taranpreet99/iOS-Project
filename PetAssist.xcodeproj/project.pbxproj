@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -79,6 +79,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		440553CDEE24411BDC36F5C0 /* Pods-PetAssist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetAssist.release.xcconfig"; path = "Target Support Files/Pods-PetAssist/Pods-PetAssist.release.xcconfig"; sourceTree = "<group>"; };
+		863D73F36089FF7A15AC4BD1 /* Pods_PetAssist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetAssist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0A5A6324353EB100D91828 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		AE0A5A6524354B4600D91828 /* petBg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petBg.jpg; sourceTree = "<group>"; };
 		AE0A5A6924354DD400D91828 /* petBg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petBg1.jpg; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 		AEC41D5C252B465000C00B2C /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
 		AEC41D5E252B470700C00B2C /* training.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = training.png; sourceTree = "<group>"; };
 		AEC41D60252B48E200C00B2C /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		B81B9B78CA11EF9D6F55AC23 /* Pods-PetAssist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetAssist.debug.xcconfig"; path = "Target Support Files/Pods-PetAssist/Pods-PetAssist.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +189,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1606A91B983D96A6F9E64E49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B81B9B78CA11EF9D6F55AC23 /* Pods-PetAssist.debug.xcconfig */,
+				440553CDEE24411BDC36F5C0 /* Pods-PetAssist.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AE53F5CC242DF18D005F9FC3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,6 +242,7 @@
 				AEA0D27C242E72E4001D0CF9 /* libsqlite3.0.tbd */,
 				AEA0D27B242E72E4001D0CF9 /* libsqlite3.tbd */,
 				AE53F5E0242DFB49005F9FC3 /* WebKit.framework */,
+				863D73F36089FF7A15AC4BD1 /* Pods_PetAssist.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -286,6 +299,7 @@
 				AEABA0362418116200733848 /* PetAssist */,
 				AEABA0352418116200733848 /* Products */,
 				AE53F5DF242DFB49005F9FC3 /* Frameworks */,
+				1606A91B983D96A6F9E64E49 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -358,9 +372,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEABA0462418116600733848 /* Build configuration list for PBXNativeTarget "PetAssist" */;
 			buildPhases = (
+				7C2AF655C78DD63D02A24C7E /* [CP] Check Pods Manifest.lock */,
 				AEABA0302418116200733848 /* Sources */,
 				AEABA0312418116200733848 /* Frameworks */,
 				AEABA0322418116200733848 /* Resources */,
+				172F6CF1D8A70E6D51F05B04 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -445,6 +461,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		172F6CF1D8A70E6D51F05B04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PetAssist/Pods-PetAssist-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PetAssist/Pods-PetAssist-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PetAssist/Pods-PetAssist-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C2AF655C78DD63D02A24C7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PetAssist-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AEABA0302418116200733848 /* Sources */ = {
@@ -625,6 +683,7 @@
 		};
 		AEABA0472418116600733848 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B81B9B78CA11EF9D6F55AC23 /* Pods-PetAssist.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -645,6 +704,7 @@
 		};
 		AEABA0482418116600733848 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 440553CDEE24411BDC36F5C0 /* Pods-PetAssist.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
