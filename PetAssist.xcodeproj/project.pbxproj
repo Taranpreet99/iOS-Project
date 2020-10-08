@@ -30,10 +30,6 @@
 		AE53F5EA24308C4D005F9FC3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE53F5E924308C4D005F9FC3 /* CoreLocation.framework */; };
 		AE53F5EC24308C76005F9FC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE53F5EB24308C76005F9FC3 /* CoreGraphics.framework */; };
 		AE53F5EE24308EF1005F9FC3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53F5ED24308EF1005F9FC3 /* MapViewController.swift */; };
-		AE7E9DF9243007F600E68054 /* growling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE7E9DF4243007F600E68054 /* growling.mp3 */; };
-		AE7E9DFB243007F600E68054 /* whimpering.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE7E9DF6243007F600E68054 /* whimpering.mp3 */; };
-		AE7E9DFC243007F600E68054 /* barking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE7E9DF7243007F600E68054 /* barking.mp3 */; };
-		AE7E9DFD243007F600E68054 /* crying.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE7E9DF8243007F600E68054 /* crying.mp3 */; };
 		AE7E9E0124300A4600E68054 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7E9E0024300A4600E68054 /* AVFoundation.framework */; };
 		AE888EBE252F2AA1009AAC21 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE888EBD252F2AA1009AAC21 /* CalendarViewController.swift */; };
 		AE888EE0252F2AC5009AAC21 /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE888EC0252F2AC4009AAC21 /* FSCalendarCollectionView.m */; };
@@ -50,7 +46,6 @@
 		AE888EEB252F2AC5009AAC21 /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = AE888ED8252F2AC4009AAC21 /* FSCalendarCalculator.m */; };
 		AE888EEC252F2AC5009AAC21 /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE888ED9252F2AC4009AAC21 /* FSCalendarHeaderView.m */; };
 		AE888EED252F2AC5009AAC21 /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = AE888EDD252F2AC4009AAC21 /* FSCalendarTransitionCoordinator.m */; };
-		AE888EEE252F2AC5009AAC21 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE888EDE252F2AC4009AAC21 /* Info.plist */; };
 		AE888EEF252F2AC5009AAC21 /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = AE888EDF252F2AC4009AAC21 /* FSCalendarAppearance.m */; };
 		AE8E76632435644500AC80DF /* petBg3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8E76622435644400AC80DF /* petBg3.jpg */; };
 		AE8E7670243578FB00AC80DF /* petbg8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8E766A243578FA00AC80DF /* petbg8.jpg */; };
@@ -60,8 +55,6 @@
 		AE8E7674243578FB00AC80DF /* petbg6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8E766E243578FA00AC80DF /* petbg6.jpg */; };
 		AE8E7675243578FB00AC80DF /* petbg7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8E766F243578FA00AC80DF /* petbg7.jpg */; };
 		AE97D36F252CCCC500E7D3F6 /* firstAid.png in Resources */ = {isa = PBXBuildFile; fileRef = AE97D36E252CCCC400E7D3F6 /* firstAid.png */; };
-		AE9A4F8C24316EDF00C41B4C /* Whining.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE9A4F8A24316EDF00C41B4C /* Whining.mp3 */; };
-		AE9A4F8D24316EDF00C41B4C /* woof.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE9A4F8B24316EDF00C41B4C /* woof.mp3 */; };
 		AEA0D275242E682C001D0CF9 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA0D274242E682C001D0CF9 /* HomePageViewController.swift */; };
 		AEA0D27A242E6DC8001D0CF9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA0D279242E6DC8001D0CF9 /* Data.swift */; };
 		AEA0D27D242E72E4001D0CF9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA0D27B242E72E4001D0CF9 /* libsqlite3.tbd */; };
@@ -106,10 +99,6 @@
 		AE53F5E924308C4D005F9FC3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		AE53F5EB24308C76005F9FC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		AE53F5ED24308EF1005F9FC3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		AE7E9DF4243007F600E68054 /* growling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = growling.mp3; sourceTree = "<group>"; };
-		AE7E9DF6243007F600E68054 /* whimpering.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whimpering.mp3; sourceTree = "<group>"; };
-		AE7E9DF7243007F600E68054 /* barking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = barking.mp3; sourceTree = "<group>"; };
-		AE7E9DF8243007F600E68054 /* crying.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crying.mp3; sourceTree = "<group>"; };
 		AE7E9E0024300A4600E68054 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		AE888EBD252F2AA1009AAC21 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		AE888EC0252F2AC4009AAC21 /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionView.m; sourceTree = "<group>"; };
@@ -142,7 +131,6 @@
 		AE888EDB252F2AC4009AAC21 /* FSCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendar.h; sourceTree = "<group>"; };
 		AE888EDC252F2AC4009AAC21 /* FSCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCell.h; sourceTree = "<group>"; };
 		AE888EDD252F2AC4009AAC21 /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
-		AE888EDE252F2AC4009AAC21 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE888EDF252F2AC4009AAC21 /* FSCalendarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarAppearance.m; sourceTree = "<group>"; };
 		AE8E76622435644400AC80DF /* petBg3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petBg3.jpg; sourceTree = "<group>"; };
 		AE8E766A243578FA00AC80DF /* petbg8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petbg8.jpg; sourceTree = "<group>"; };
@@ -152,8 +140,6 @@
 		AE8E766E243578FA00AC80DF /* petbg6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petbg6.jpg; sourceTree = "<group>"; };
 		AE8E766F243578FA00AC80DF /* petbg7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petbg7.jpg; sourceTree = "<group>"; };
 		AE97D36E252CCCC400E7D3F6 /* firstAid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstAid.png; sourceTree = "<group>"; };
-		AE9A4F8A24316EDF00C41B4C /* Whining.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Whining.mp3; sourceTree = "<group>"; };
-		AE9A4F8B24316EDF00C41B4C /* woof.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = woof.mp3; sourceTree = "<group>"; };
 		AEA0D274242E682C001D0CF9 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		AEA0D279242E6DC8001D0CF9 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		AEA0D27B242E72E4001D0CF9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -274,7 +260,6 @@
 				AE888EDB252F2AC4009AAC21 /* FSCalendar.h */,
 				AE888EDC252F2AC4009AAC21 /* FSCalendarCell.h */,
 				AE888EDD252F2AC4009AAC21 /* FSCalendarTransitionCoordinator.m */,
-				AE888EDE252F2AC4009AAC21 /* Info.plist */,
 				AE888EDF252F2AC4009AAC21 /* FSCalendarAppearance.m */,
 			);
 			path = FSCalendar;
@@ -314,24 +299,10 @@
 				AEABA04C2418169700733848 /* ViewControllers */,
 				AEABA04B2418167000733848 /* Classes */,
 				AEABA04A2418166600733848 /* Storyboards */,
-				AEABA0492418164800733848 /* Media */,
 				AEABA03E2418116600733848 /* Assets.xcassets */,
 				AEABA0432418116600733848 /* Info.plist */,
 			);
 			path = PetAssist;
-			sourceTree = "<group>";
-		};
-		AEABA0492418164800733848 /* Media */ = {
-			isa = PBXGroup;
-			children = (
-				AE9A4F8A24316EDF00C41B4C /* Whining.mp3 */,
-				AE9A4F8B24316EDF00C41B4C /* woof.mp3 */,
-				AE7E9DF7243007F600E68054 /* barking.mp3 */,
-				AE7E9DF8243007F600E68054 /* crying.mp3 */,
-				AE7E9DF4243007F600E68054 /* growling.mp3 */,
-				AE7E9DF6243007F600E68054 /* whimpering.mp3 */,
-			);
-			path = Media;
 			sourceTree = "<group>";
 		};
 		AEABA04A2418166600733848 /* Storyboards */ = {
@@ -431,26 +402,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE8E7674243578FB00AC80DF /* petbg6.jpg in Resources */,
-				AE9A4F8C24316EDF00C41B4C /* Whining.mp3 in Resources */,
-				AE9A4F8D24316EDF00C41B4C /* woof.mp3 in Resources */,
 				AE8E76632435644500AC80DF /* petBg3.jpg in Resources */,
 				AE39037F252CB3C400642FAC /* signup.png in Resources */,
 				AE8E7675243578FB00AC80DF /* petbg7.jpg in Resources */,
-				AE7E9DFB243007F600E68054 /* whimpering.mp3 in Resources */,
 				AE8E7670243578FB00AC80DF /* petbg8.jpg in Resources */,
 				AE0A5A6C24354DD400D91828 /* petBg1.jpg in Resources */,
 				AEC41D61252B48E300C00B2C /* menu.png in Resources */,
 				AE39037D252CB3BE00642FAC /* signin.png in Resources */,
 				AE8E7671243578FB00AC80DF /* petbg9.jpg in Resources */,
-				AE7E9DF9243007F600E68054 /* growling.mp3 in Resources */,
 				AEA0D289242E863E001D0CF9 /* PetAssistDB.db in Resources */,
 				AE53F5D8242DF1A3005F9FC3 /* bleeding.png in Resources */,
 				AE0A5A8124355BE600D91828 /* buttons2.png in Resources */,
 				AE53F5DA242DF1A3005F9FC3 /* choking.png in Resources */,
 				AEABA0422418116600733848 /* LaunchScreen.storyboard in Resources */,
 				AEC41D5D252B465100C00B2C /* info.png in Resources */,
-				AE7E9DFC243007F600E68054 /* barking.mp3 in Resources */,
-				AE888EEE252F2AC5009AAC21 /* Info.plist in Resources */,
 				AEC41D59252B44B500C00B2C /* map.png in Resources */,
 				AE0A5A6E24354F7B00D91828 /* petBg2.jpg in Resources */,
 				AE53F5D9242DF1A3005F9FC3 /* eyeinjury.png in Resources */,
@@ -460,7 +425,6 @@
 				AE0A5A6624354B4600D91828 /* petBg.jpg in Resources */,
 				AEC41D5B252B451300C00B2C /* reminder.png in Resources */,
 				AE53F5D6242DF1A3005F9FC3 /* resuscitation.png in Resources */,
-				AE7E9DFD243007F600E68054 /* crying.mp3 in Resources */,
 				AEC41D5F252B470700C00B2C /* training.png in Resources */,
 				AEABA03F2418116600733848 /* Assets.xcassets in Resources */,
 				AE53F5DB242DF1A3005F9FC3 /* convulsions.png in Resources */,
