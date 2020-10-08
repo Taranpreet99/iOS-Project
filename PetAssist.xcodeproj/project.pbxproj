@@ -16,6 +16,7 @@
 		AE39037D252CB3BE00642FAC /* signin.png in Resources */ = {isa = PBXBuildFile; fileRef = AE39037C252CB3BE00642FAC /* signin.png */; };
 		AE39037F252CB3C400642FAC /* signup.png in Resources */ = {isa = PBXBuildFile; fileRef = AE39037E252CB3C300642FAC /* signup.png */; };
 		AE390386252CC3EB00642FAC /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE390385252CC3EB00642FAC /* InformationViewController.swift */; };
+		AE3F1832252F58AE00453A01 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F1831252F58AE00453A01 /* TableCell.swift */; };
 		AE53F5C9242DEA0E005F9FC3 /* FirstAidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53F5C8242DEA0E005F9FC3 /* FirstAidViewController.swift */; };
 		AE53F5CB242DEA33005F9FC3 /* SiteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53F5CA242DEA33005F9FC3 /* SiteCell.swift */; };
 		AE53F5D5242DF1A3005F9FC3 /* burns.png in Resources */ = {isa = PBXBuildFile; fileRef = AE53F5CD242DF1A3005F9FC3 /* burns.png */; };
@@ -55,6 +56,8 @@
 		AE8E7674243578FB00AC80DF /* petbg6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8E766E243578FA00AC80DF /* petbg6.jpg */; };
 		AE8E7675243578FB00AC80DF /* petbg7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8E766F243578FA00AC80DF /* petbg7.jpg */; };
 		AE97D36F252CCCC500E7D3F6 /* firstAid.png in Resources */ = {isa = PBXBuildFile; fileRef = AE97D36E252CCCC400E7D3F6 /* firstAid.png */; };
+		AE97D371252F476600E7D3F6 /* articles.png in Resources */ = {isa = PBXBuildFile; fileRef = AE97D370252F476600E7D3F6 /* articles.png */; };
+		AE97D373252F492D00E7D3F6 /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE97D372252F492D00E7D3F6 /* ArticlesViewController.swift */; };
 		AEA0D275242E682C001D0CF9 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA0D274242E682C001D0CF9 /* HomePageViewController.swift */; };
 		AEA0D27A242E6DC8001D0CF9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA0D279242E6DC8001D0CF9 /* Data.swift */; };
 		AEA0D27D242E72E4001D0CF9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA0D27B242E72E4001D0CF9 /* libsqlite3.tbd */; };
@@ -85,6 +88,7 @@
 		AE39037C252CB3BE00642FAC /* signin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signin.png; sourceTree = "<group>"; };
 		AE39037E252CB3C300642FAC /* signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signup.png; sourceTree = "<group>"; };
 		AE390385252CC3EB00642FAC /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		AE3F1831252F58AE00453A01 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 		AE53F5C8242DEA0E005F9FC3 /* FirstAidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAidViewController.swift; sourceTree = "<group>"; };
 		AE53F5CA242DEA33005F9FC3 /* SiteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteCell.swift; sourceTree = "<group>"; };
 		AE53F5CD242DF1A3005F9FC3 /* burns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burns.png; sourceTree = "<group>"; };
@@ -140,6 +144,8 @@
 		AE8E766E243578FA00AC80DF /* petbg6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petbg6.jpg; sourceTree = "<group>"; };
 		AE8E766F243578FA00AC80DF /* petbg7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petbg7.jpg; sourceTree = "<group>"; };
 		AE97D36E252CCCC400E7D3F6 /* firstAid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstAid.png; sourceTree = "<group>"; };
+		AE97D370252F476600E7D3F6 /* articles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = articles.png; sourceTree = "<group>"; };
+		AE97D372252F492D00E7D3F6 /* ArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
 		AEA0D274242E682C001D0CF9 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		AEA0D279242E6DC8001D0CF9 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		AEA0D27B242E72E4001D0CF9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -183,6 +189,7 @@
 		AE53F5CC242DF18D005F9FC3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				AE97D370252F476600E7D3F6 /* articles.png */,
 				AE97D36E252CCCC400E7D3F6 /* firstAid.png */,
 				AE39037E252CB3C300642FAC /* signup.png */,
 				AE39037C252CB3BE00642FAC /* signin.png */,
@@ -320,6 +327,7 @@
 				AE53F5CA242DEA33005F9FC3 /* SiteCell.swift */,
 				AEABA0372418116200733848 /* AppDelegate.swift */,
 				AEA0D279242E6DC8001D0CF9 /* Data.swift */,
+				AE3F1831252F58AE00453A01 /* TableCell.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -338,6 +346,7 @@
 				AE0A5A6324353EB100D91828 /* EventsViewController.swift */,
 				AE390385252CC3EB00642FAC /* InformationViewController.swift */,
 				AE888EBD252F2AA1009AAC21 /* CalendarViewController.swift */,
+				AE97D372252F492D00E7D3F6 /* ArticlesViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -425,6 +434,7 @@
 				AE0A5A6624354B4600D91828 /* petBg.jpg in Resources */,
 				AEC41D5B252B451300C00B2C /* reminder.png in Resources */,
 				AE53F5D6242DF1A3005F9FC3 /* resuscitation.png in Resources */,
+				AE97D371252F476600E7D3F6 /* articles.png in Resources */,
 				AEC41D5F252B470700C00B2C /* training.png in Resources */,
 				AEABA03F2418116600733848 /* Assets.xcassets in Resources */,
 				AE53F5DB242DF1A3005F9FC3 /* convulsions.png in Resources */,
@@ -450,6 +460,8 @@
 				AE53F5C9242DEA0E005F9FC3 /* FirstAidViewController.swift in Sources */,
 				AEA0D280242E7897001D0CF9 /* RegisterViewController.swift in Sources */,
 				AE888EE3252F2AC5009AAC21 /* FSCalendarCell.m in Sources */,
+				AE3F1832252F58AE00453A01 /* TableCell.swift in Sources */,
+				AE97D373252F492D00E7D3F6 /* ArticlesViewController.swift in Sources */,
 				AEA0D275242E682C001D0CF9 /* HomePageViewController.swift in Sources */,
 				AE888EE1252F2AC5009AAC21 /* FSCalendarDelegationProxy.m in Sources */,
 				AE888EED252F2AC5009AAC21 /* FSCalendarTransitionCoordinator.m in Sources */,
