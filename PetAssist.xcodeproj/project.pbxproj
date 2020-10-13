@@ -31,6 +31,7 @@
 		AE53F5EA24308C4D005F9FC3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE53F5E924308C4D005F9FC3 /* CoreLocation.framework */; };
 		AE53F5EC24308C76005F9FC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE53F5EB24308C76005F9FC3 /* CoreGraphics.framework */; };
 		AE53F5EE24308EF1005F9FC3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53F5ED24308EF1005F9FC3 /* MapViewController.swift */; };
+		AE7A8BDD2536010300E2EA16 /* roundButton.png in Resources */ = {isa = PBXBuildFile; fileRef = AE7A8BDC2536010300E2EA16 /* roundButton.png */; };
 		AE7E9E0124300A4600E68054 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7E9E0024300A4600E68054 /* AVFoundation.framework */; };
 		AE888EBE252F2AA1009AAC21 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE888EBD252F2AA1009AAC21 /* CalendarViewController.swift */; };
 		AE888EE0252F2AC5009AAC21 /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE888EC0252F2AC4009AAC21 /* FSCalendarCollectionView.m */; };
@@ -103,6 +104,7 @@
 		AE53F5E924308C4D005F9FC3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		AE53F5EB24308C76005F9FC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		AE53F5ED24308EF1005F9FC3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		AE7A8BDC2536010300E2EA16 /* roundButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roundButton.png; sourceTree = "<group>"; };
 		AE7E9E0024300A4600E68054 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		AE888EBD252F2AA1009AAC21 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		AE888EC0252F2AC4009AAC21 /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionView.m; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 		AE53F5CC242DF18D005F9FC3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				AE7A8BDC2536010300E2EA16 /* roundButton.png */,
 				AE97D370252F476600E7D3F6 /* articles.png */,
 				AE97D36E252CCCC400E7D3F6 /* firstAid.png */,
 				AE39037E252CB3C300642FAC /* signup.png */,
@@ -416,6 +419,7 @@
 				AE8E7675243578FB00AC80DF /* petbg7.jpg in Resources */,
 				AE8E7670243578FB00AC80DF /* petbg8.jpg in Resources */,
 				AE0A5A6C24354DD400D91828 /* petBg1.jpg in Resources */,
+				AE7A8BDD2536010300E2EA16 /* roundButton.png in Resources */,
 				AEC41D61252B48E300C00B2C /* menu.png in Resources */,
 				AE39037D252CB3BE00642FAC /* signin.png in Resources */,
 				AE8E7671243578FB00AC80DF /* petbg9.jpg in Resources */,
