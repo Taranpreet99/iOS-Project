@@ -5,7 +5,7 @@
 //  Created by Xcode User on 2020-10-08.
 //  Copyright © 2020 Taranpreet Singh Yu Zhang. All rights reserved.
 //
-
+import FSCalendar
 import UIKit
 
 class CalendarViewController: UIViewController {
