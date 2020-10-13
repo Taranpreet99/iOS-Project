@@ -19,6 +19,7 @@ class ArticlesViewController: UIViewController, UITableViewDataSource, UITableVi
     
      var siteData: [String] = ["https://www.helpguide.org/articles/mental-health/mood-boosting-power-of-dogs.htm","https://www.aaha.org/publications/newstat/articles/2020-02/pet-obesity-is-an-epidemic/", "https://vcahospitals.com/know-your-pet/obesity-in-dogs","https://www.dosomething.org/us/facts/11-facts-about-pet-obesity","https://moderndogmagazine.com/articles/how-prevent-obesity-pets/89263","https://todaysveterinarypractice.com/nutrition-notes-treatment-of-obesity/","https://www.pethealthnetwork.com/dog-health/dog-diseases-conditions-a-z/5-reasons-why-pet-obesity-a-serious-problem","https://www.wedgewoodpharmacy.com/blog/posts/everything-you-should-know-about-feeding-human-food-to-dogs-and-cats.html","https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"]
     
+    //view
     override func viewDidLoad() {
         super.viewDidLoad()
 
