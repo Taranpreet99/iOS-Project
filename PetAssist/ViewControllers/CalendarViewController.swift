@@ -20,7 +20,7 @@ class CalendarViewController: UIViewController, FSCalendarDelegate {
     }
 
     func  calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {
-        print("selected")
+        let formatter = DateFormatter()
     }
 
     /*
